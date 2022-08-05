@@ -1,0 +1,4 @@
+CONSOLIDATION DAY QUESTION: unique key identifier for array elements? If same element twice, and used by object, mirrored behavior
+https://www.youtube.com/watch?v=3lahkdHEhW8&list=PLpGHT1n4-mAsxuRxVPv7kj4-dQYoC3VVu&index=2
+43:37
+
