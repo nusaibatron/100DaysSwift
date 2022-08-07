@@ -64,3 +64,11 @@ func writeBook(title: String, _ pages: Int) throws {
 
 writeBook(title: "Hunger Games", 80)
 
+//this is confusing but valid
+// default to setting first _ as given parameter if both blank
+func testFunc (_ name: String = "Annie", _ lastname: String = "Frank") {
+    print(name)
+    print(lastname)
+}
+
+testFunc("Smith", "Brown")
