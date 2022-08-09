@@ -65,6 +65,7 @@ recipeStepsOutput(openingLine: firstStep, recipeSteps: omeletteSteps)
 //Wash hands
 //Break eggs
 //Put in skillet
+
 //Flip eggs
 //Good luck with you recipe!
 
