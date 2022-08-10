@@ -2,3 +2,19 @@ CONSOLIDATION DAY QUESTION: unique key identifier for array elements? If same el
 https://www.youtube.com/watch?v=3lahkdHEhW8&list=PLpGHT1n4-mAsxuRxVPv7kj4-dQYoC3VVu&index=2
 43:37
 
+Checkpoint 6
+Checkpoint 7
+Checkpoint 8
+Checkpoint 9
+
+            
+            Form {
+                Picker("Select student", selection: $selectedStudent ) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
+                    }
+                    
+                }
+            }
+//Ask stackoverflow?
+What is the Text($0) index referring to for arguments here?
