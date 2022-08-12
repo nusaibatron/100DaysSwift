@@ -1,13 +1,14 @@
-CONSOLIDATION DAY QUESTION: unique key identifier for array elements? If same element twice, and used by object, mirrored behavior
+CONSOLIDATION DAY QUESTION: 
+1 unique key identifier for array elements? If same element twice, and used by object, mirrored behavior
 https://www.youtube.com/watch?v=3lahkdHEhW8&list=PLpGHT1n4-mAsxuRxVPv7kj4-dQYoC3VVu&index=2
 43:37
 
-Checkpoint 6
-Checkpoint 7
-Checkpoint 8
-Checkpoint 9
+2. Checkpoint 6
+3. Checkpoint 7
+4. Checkpoint 8
+5. Checkpoint 9
 
-            
+6.        
             Form {
                 Picker("Select student", selection: $selectedStudent ) {
                     ForEach(students, id: \.self) {
@@ -18,3 +19,29 @@ Checkpoint 9
             }
 //Ask stackoverflow?
 What is the Text($0) index referring to for arguments here?
+
+
+7. Understanding .decorations vs not, how to make intuitive? (For example, .percentage and .number)
+
+8.                        ForEach(1..<10) {
+                            Text($0, format: .percent)
+                        }  Why that is valid but below is not
+
+                        ForEach(1…10) {
+                            Text($0, format: .percent)
+                        }
+
+9. Why is this out of scope?
+
+                Section {
+                var total = addTip(percentage: tipAmount, to: Double(checkAmount))
+                    
+                    Text("Grand total \(total)")
+                }
+                Section {
+                var perPerson = (addTip(percentage: tipAmount, to: Double(checkAmount))) / Double(numberOfPeople)
+                    
+                    Text("Per Person \(perPerson)")
+                }
+
+
